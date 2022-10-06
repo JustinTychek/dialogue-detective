@@ -1,0 +1,29 @@
+[
+  {
+    "id": "0",
+    "name": "person1",
+    "text": "Are you having a good day?",
+    "responses": [
+      { "resptext": "yes ", "goto": "2" },
+      { "resptext": "no ", "goto": "1" }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "person2",
+    "text": "How are you?",
+    "responses": [
+      { "resptext": "good ", "goto": "3" },
+      { "resptext": "bad ", "goto": "4" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "person1",
+    "text": "How's the weather?",
+    "responses": [
+      { "resptext": "sunny ", "goto": "5" },
+      { "resptext": "cold ", "goto": "6" }
+    ]
+  }
+]

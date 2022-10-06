@@ -1,0 +1,10 @@
+[
+  { "id": "1", "name": "person1", "response": "hello!" },
+  { "id": "2", "name": "person2", "response": "hi how are you?" },
+  { "id": "3", "name": "person2", "response": "I'm doing well, how are you?" },
+  {
+    "id": "4",
+    "name": "person1",
+    "response": ["hi how are you?", "I'm doing well, how are"]
+  }
+]
